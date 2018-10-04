@@ -1,0 +1,24 @@
+hash: e1209289934ce1f09a8572ddbf465760dda519bd26c3e550b19c8e24e2417cd3
+updated: 2018-10-04T13:20:45.672166+07:00
+imports:
+- name: github.com/certifi/gocertifi
+  version: deb3ae2ef2610fde3330947281941c562861188b
+- name: github.com/getsentry/raven-go
+  version: 084a9de9eb0361fbd5ded14b55c84e5493a5d7f6
+- name: github.com/pkg/errors
+  version: c059e472caf75dbe73903f6521a20abac245b17f
+- name: go.uber.org/atomic
+  version: 1ea20fb1cbb1cc08cbd0d913a96dead89aa18289
+- name: go.uber.org/multierr
+  version: 3c4937480c32f4c13a875a1829af76c98ca3d40a
+- name: go.uber.org/zap
+  version: ff33455a0e382e8a81d14dd7c922020b6b5e7982
+  subpackages:
+  - buffer
+  - internal/bufferpool
+  - internal/color
+  - internal/exit
+  - zapcore
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []
